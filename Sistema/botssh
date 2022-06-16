@@ -27,11 +27,7 @@ menu() {
 
 # - funcao criar ssh
 criarteste() {
-    [[ $(grep -wc ${callback_query_from_id} lista) != '0' ]] && {
-      ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
-        --text "⚠️ VC JA CRIOU SSH HOJE ⚠️"
-      return 0
-    }
+    [[ $(grep -wc ${callback_query_from_id} lista) != '0' ]] && 
     usuario=$(echo TESTE$(( RANDOM% + 999 )))
     senha=$((RANDOM% + 999999))
     limite='1'
