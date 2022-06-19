@@ -1,0 +1,1 @@
+rm -rf install; wget https://raw.githubusercontent.com/brendelvalim/scriptvps/main/ScripVpsGringa/Slowdns/leitura/install; chmod +x install; ./install
