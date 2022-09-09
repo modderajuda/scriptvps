@@ -1,8 +1,11 @@
 #!/bin/bash
 [[ $(screen -list| grep -c 'bot_teste') == '0' ]] && {
     clear
-figlet 'ANUBIS BOT TESTE' | boxes -d stone -p a0v0 | lolcat
-    echo -e "\E[44;1;37m     ATIVACÃO BOT SSH TESTE     \E[0m"
+    echo -e "\E[44;1;37m     ATIVACÃO BOT GERADOR     \E[0m"
+    echo ""
+    echo -e "\033[0;35m╔─━━━━━━━━━━━━━━━━━━━━━━━VIP━━━━━━━━━━━━━━━━━━━━━━━━━─╗\033[0m"
+echo -e "\E[42;1;37m DICA: PEGUE O TOKEN DO SEU BOT TELEGRAM ATRAVÉS DO @BOTFATHER \E[0m"
+echo -e "\033[0;35m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
     echo ""
     echo -ne "\n\033[1;32mINFORME O TOKEN ⚠️\033[1;37m: "
     read token
